@@ -1,0 +1,302 @@
+body{
+  background-color: #F8F8F8;
+}
+@media only screen and (max-width: 1200px) {
+  body {
+   width: 100%;
+  }
+}
+    #trapezoid {
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        height: 0;
+        border: 80px solid rgba(0, 0, 0, 0);
+        border-top: 0 solid;
+        border-bottom: 100px solid rgba(7, 66, 114, 0.795);
+        -webkit-border-radius: 20px 20px 0 0;
+        border-radius: 20px 20px 0 0;
+        font: normal 100%/normal Arial, Helvetica, sans-serif;
+        color: rgba(0, 0, 0, 0.7);
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        -webkit-transform: rotateX(180deg);
+        transform: rotateX(180deg);
+        margin: 0 auto;
+        width: 700px;
+        position: relative;
+        padding-left: 7%;
+    }
+
+    #trapezoid a, .subnavbtn {
+        -webkit-transform: rotateX(180deg);
+        transform: rotateX(180deg);
+    }
+
+    .sub-home {
+        display: none;
+        position: absolute;
+        right: 0;
+        left: 0;
+        z-index: 1001;
+    }
+
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 20px 40px;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        transition: all 0.5s ease;
+    }
+
+    .subnav {
+        float: left;
+        overflow: hidden;
+    }
+
+    .subnav .subnavbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 20px 40px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        transition: all 0.5s ease;
+    }
+
+    .navbar a:hover, .subnav:hover .subnavbtn {
+        background: #8CA6DB;
+        color: black;
+        border-radius: 5px;
+    }
+
+    .subnav-content {
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+
+    }
+
+    .subnav-content a {
+        float: left;
+        color: white;
+        text-decoration: none;
+        padding: 10px 50px;
+    }
+
+    .subnav-content a:hover {
+        background: #93d6cd;
+        color: black;
+    }
+
+    .subnav:hover .subnav-content {
+        display: flex;
+        justify-content: center;
+    }
+
+    p {
+        color: whitesmoke;
+        font-size: 25px;
+    }
+
+    h5 {
+        color: white;
+    }
+
+    .img1 {
+        height: 600px;
+        width: 98%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img2 {
+        height: 600px;
+        width: 98%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img3 {
+        height: 600px;
+        width: 98%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div#carousel {
+        perspective: 1200px;
+        background: rgba(63, 63, 119, 0.932);
+        padding-top: 10%;
+        font-size: 0;
+        margin-bottom: 3rem;
+        overflow: hidden;
+    }
+
+    figure#spinner {
+        transform-style: preserve-3d;
+        height: 300px;
+        transform-origin: 50% 50% -500px;
+        transition: 1s;
+    }
+
+    figure#spinner img {
+        width: 40%;
+        max-width: 425px;
+        position: absolute;
+        left: 30%;
+        transform-origin: 50% 50% -500px;
+        outline: 1px solid transparent;
+    }
+    input{
+        padding: 10px;
+         font: 20px Arial;
+         width: 70%;
+    }
+
+    div#carousel ~ span {
+        color: white;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 2rem;
+        transition: 0.6s color;
+        position: relative;
+        margin: -6rem 5% 5%;
+        border-bottom: none;
+        line-height: 0;
+    }
+
+    div #carousel ~ span:hover {
+        background: rgba(63, 63, 119, 0.932);
+        cursor: pointer;
+    }
+
+    p {
+        font-family: '	Copperplate', serif;
+        color: black;
+
+    }
+
+    h1 {
+        text-align: center;
+        font-weight: 700;
+    }
+
+    h6 {
+        text-align: center;
+        font-family: "Papyrus", monospace;
+    }
+
+    .card-body {
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .card:hover {
+        box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+        -moz-box-shadowL: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+        transition: 0.5s;
+    }
+
+    .brands {
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://post.healthline.com/wp-content/uploads/2019/05/Perfume_Bottles-1200x628-Facebook.jpg);
+        background-size: cover;
+        height: 80vh;
+        width: 100%;
+        box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+        -moz-box-shadowL: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+        transition: 0.5s;
+    }
+
+    .brands h1 {
+        font-family: 'Lobster', cursive;
+    }
+    .news {
+        background-color: black;
+        color: white;
+    }
+    #sub {
+        height: 49px;
+        width: 100px;
+        background: white;
+        border: 1px solid white;
+    }
+    .news input {
+        height: 45px;
+        width: 55%;
+        border: 2px solid white;
+        outline: none;
+        background: black;
+        color: white;
+        margin-top: 20px;
+        font-weight: 600;
+    }
+    .news::placeholder {
+        color: white;
+    }
+    #social {
+        background-color: azure;
+        padding: 0;
+    }
+    h2 {
+        font-weight: 400;
+    @font-face: sans serif;
+    }
+    .social-button {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+    }
+    .social-button li {
+        display: inline-block;
+    }
+
+    .social-button li:nth-child(2) {
+        margin: 0 75px;
+    }
+
+    .social-button li a {
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 50%;
+        color: rgb(34, 30, 30);
+        display: block;
+        height: 90px;
+        line-height: 96px;
+        width: 90px;
+        -webkit-transition: all 0.2s ease 0s;
+        -moz-transition: all 0.2s ease 0s;
+        -ms-transition: all 0.2s ease 0s;
+        -o-transition: all 0.2s ease 0s;
+        transition: all 0.2s ease 0s;
+    }
+    .social-button li a:hover {
+        color: #008ECC;
+        border: 2px solid #008ECC;
+    }
+    label {
+    font-size: 22px;
+    font-weight: bold;
+}
+.btn {
+    padding: 7px 21px;
+    background-color: rgb(143, 1, 1);
+    color: white;
+    font-size: 18px;
+}
+}
